@@ -24,7 +24,7 @@ Page({
   onLoad: function(option) {
     var that = this
     wx.request({
-      url: 'http://47.100.35.6:8080/guahao', // 仅为示例，并非真实的接口地址
+      url: 'https://touchez.cn:8090/guahao', // 仅为示例，并非真实的接口地址
       data: {
         "userId": app.globalData.userId,
         "departmentId": option.departmentid * 1

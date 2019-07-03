@@ -23,7 +23,7 @@ Page({
   onLoad: function (option) {
     var that = this
     wx.request({
-      url: 'http://47.100.35.6:8080/examination', // 仅为示例，并非真实的接口地址
+      url: 'https://touchez.cn:8090/examination', // 仅为示例，并非真实的接口地址
       data: {
         "examinationOrderId": option.examinationOrderId
       },
