@@ -41,10 +41,10 @@ Page({
             keshi: res.data.data.departmentName
           })
           that.setData({
-            pnum: res.data.data.guahaoId
+            pnum: res.data.data.order
           })
           that.setData({
-            time: 5 * res.data.order
+            time: 5 * res.data.data.order
           })
         } else if (res.data.code == 500500) {
           that.setData({

@@ -1,69 +1,61 @@
 /* pages/list/list.wxss */
-.cont{
-  color:dimgray;
-}
-.haveb {
-  border-bottom: 1rpx solid #aaa;
-  border-bottom-width: 80%;
-  margin-left: 10%;
-}
-
-.wrap {
+/* .warp{
+  width: 100%;
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  padding: 20rpx;
-}
-
-navigator {
-  overflow: hidden;
-}
-
-.list {
-  margin-bottom: 20rpx;
-  height: 200rpx;
+} */
+.introduction{
   position: relative;
+  left: 2.5%;
+  margin-top: 20px;
+  padding-left: 24px;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 46px;
+  background-color: #6495ED;
+  box-shadow: 6px 6px 5px #2222;
+  border-radius: 20px;
+  color: white;
+  width: 160px;
 }
 
-.imgs {
-  float: left;
+.img {
+  position: relative;
+  left: 4%;
+  top: 20px;
+  display: inline-block;
+  width: 150px;
+  height: 221px;
+  border-radius: 5px;
 }
 
-.imgs image {
-  display: block;
-  width: 200rpx;
-  height: 200rpx;
+.text{
+  display: inline-block;
+  position: relative;
+  bottom: 10px;
+  left: 40px;
+  line-height: 40px;
+  background-color: #f6f6f6;
+  box-shadow: 6px 6px 5px #2222;
+  padding: 10px;
+  border-radius: 5px;
+}
+.name{
+  position: relative;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-.infos {
-  float: left;
-  width: 480rpx;
-  height: 200rpx;
-  padding: 20rpx 0 0 20 rpx;
-}
-
-.front {
-  color: cornflowerblue;
-  margin-right: 20rpx;
-}
-
-
-.titlev {
-  font-size: 20px;
-  margin: 40rpx 0 40rpx 50rpx;
-  white-space: nowrap;
-  display: flex;
-}
-
-.date {
+.detail{
+  position: relative;
+  top: 17px;
+  left: 8%;
+  width: 84%;
   font-size: 16px;
-  color: #aaa;
-  position: absolute;
-  bottom: 0;
-}
-
-.title {
-  font-size: 15px;
-  margin-bottom: 1%;
-  color: cornflowerblue;
+  line-height: 30px;
+  background-color: #f6f6f6;
+  box-shadow: 6px 6px 5px #2222;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
 }

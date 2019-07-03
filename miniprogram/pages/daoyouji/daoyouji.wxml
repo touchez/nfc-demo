@@ -1,8 +1,19 @@
-
-<audio poster="{{poster}}" name="{{name}}" 
-  author="{{author}}" src="{{src}}" id="daoyouji" 
-  controls="true" loop="true" autoplay="autoplay" >
-</audio>
+<view class='title'>
+达芬奇的秘密：蒙娜丽莎的微笑 
+</view>
 <view class="imgs">
         <image class="img" src="../../image/mb.png" mode="scale"></image>
 </view>
+
+<view class='text'>
+<text space="ensp">    《蒙娜丽莎》是文艺复兴时代画家列奥纳多·达·芬奇所绘的丽莎·乔宫多的肖像画.法国政府把它保存在巴黎的卢浮宫供公众欣赏.
+</text>
+<text space="ensp">    它代表达·芬奇的最高艺术成就,成功地塑造了资本主义上升时期一位城市有产阶级的妇女形象.画中人物坐姿优雅,笑容微妙,背景山水幽深茫茫,淋漓尽致地发挥了画家那奇特的烟雾状“无界渐变着色法”般的笔法.画家力图使人物的丰富内心感情和美丽的外形达到巧妙的结合,对于人像面容中眼角唇边等表露感情的关键部位,也特别着重掌握精确与含蓄的辩证关系,达到神韵之境,从而使蒙娜丽莎的微笑具有一种神秘莫测的千古奇韵,那如梦似的妩媚微笑,被不少美术史家称为“神秘的微笑”.
+</text>
+<text space="ensp">    蒙娜丽莎,这是一个永远探讨不完的问题.自问世至今,将近五百年,后人不知做过多少品评和揣测,留下越来越多的迷局.当今,世上有研究《蒙娜丽莎》的专著数百部,而有近百名学者将此画作为终身课题.时间的推移不会使疑团得到解决,只会随着研究的深入,将更多的疑惑留给后人.</text>
+ </view>
+
+<audio poster="{{poster}}" name="{{name}}" 
+  author="{{author}}" src="{{src}}" id="daoyouji" 
+  controls="true" loop="true" autoplay="autoplay" class='video'>
+</audio>

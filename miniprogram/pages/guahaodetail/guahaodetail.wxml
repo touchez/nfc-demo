@@ -10,10 +10,11 @@
 
   <!-- 挂号成功 -->
   <view class="guhao-tishi" wx:if="{{msg=='success'}}">
-    <view class="guahao-pnum">挂号成功！</view>
     <view class="guahao-pnum">前方排队{{pnum}}人</view>
     <view class="guahao-time">预计等待{{time}}分钟</view>
   </view>
+
+  <view class='background_div'></view>
 
   <!-- 挂号失败 -->
   <!--<view style="text-align:center; display: flex; flex-flow: column;" wx:if="{{msg!='success'}}">

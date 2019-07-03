@@ -18,11 +18,11 @@
 			"outputPath": ""
 		}
 	},
-	"appid": "wx1fe031e56e4201ae",
 	"projectname": "NFC%20demo",
 	"libVersion": "2.2.5",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
+	"appid": "wx0acc841fd6242d85",
 	"condition": {
 		"search": {
 			"current": -1,

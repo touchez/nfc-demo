@@ -11,12 +11,8 @@
       <view class="guahao-time">检查时间：{{ctTime}}</view>
       <view class="guahao-time">报告时间：{{reportTime}}</view>
       <view class="guahao-time">用户id：{{userId}}</view>
-   
-      
-      
   </view>
   <view   wx:if="{{msg!='success'}}">
       <view class="guahao-pnum">{{msg}}</view>
-      
   </view>
 </view>
