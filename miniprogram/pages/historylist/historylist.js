@@ -1,4 +1,5 @@
 //list.js
+const api = require('../../config/config.js');
 //获取应用实例
 const app = getApp()
 
@@ -22,7 +23,8 @@ Page({
   onLoad: function () {
     var that =this
     wx.request({
-      url: 'http://47.100.35.6:8080/medicalRecord/'+app.globalData.userId, // 仅为示例，并非真实的接口地址
+      //url: 'http://47.100.35.6:8080/medicalRecord/'+app.globalData.userId, // 仅为示例，并非真实的接口地址
+      url: api.getMedicalHistoryByUserUrl + app.globalData.userId, // 仅为示例，并非真实的接口地
       data: {
         
       },
