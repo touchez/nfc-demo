@@ -1,0 +1,3 @@
+<!--pages/time/time.wxml-->
+  <image bindtap="toast" class="ecnu" src="../../images/time.jpg"></image>
+

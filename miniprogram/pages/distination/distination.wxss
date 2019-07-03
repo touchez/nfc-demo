@@ -1,0 +1,9 @@
+/* pages/distination/distination.wxss */
+page{
+  height: 100%;
+}
+.ecnu{
+  width: 100%;
+  height: 100%;
+}
+

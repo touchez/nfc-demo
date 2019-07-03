@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/button/button",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/succeed/succeed",
+    "pages/join/join",
+    "pages/publication/publication",
+    "pages/user/user",
+    "pages/pageopen/pageopen",
+    "pages/bus/bus",
+    "pages/item/item",
+    "pages/price/price",
+    "pages/hospital/hospital",
+    "pages/map/map",
+    "pages/map2/map2",
+    "pages/taxi/taxi",
+    "pages/smart_home/smart_home",
+    "pages/taxi3/taxi3",
+    "pages/distination/distination",
+    "pages/time/time",
+    "pages/order/order"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3ab971",
+    "navigationBarTitleText": "NFC",
+    "navigationBarTextStyle": "black"
+  }
+}

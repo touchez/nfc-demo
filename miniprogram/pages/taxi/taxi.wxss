@@ -1,0 +1,6 @@
+/* pages/taxi2/taxi2.wxss */
+.ecnu{
+  width: 100%;
+  height:500px;
+}
+

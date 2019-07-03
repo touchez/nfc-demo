@@ -1,0 +1,55 @@
+<!--pages/user/user.wxml-->
+
+<view class='usercenter'>
+  <image class='bg' src='/images/bg.png'></image>
+
+  <view class='head'>
+    <image class='headphoto' src="/images/leshi1.jpg"></image>
+  </view>
+</view>
+
+<!--基本信息盒模型  -->
+<view class='basic'>
+  <text class='basictext'>基本信息</text>
+
+  <!--名字部分  -->
+  <view class='namebox'>
+    <text class='name'>品牌</text>
+    <image class='nameicon' src='/images/righticon.png'></image>
+    <text class='nametext'>乐事</text>
+  </view>
+
+  <!--手机号部分  -->
+  <view class='namebox'>
+    <text class='name'>系列</text>
+    <image class='nameicon' src='/images/righticon.png'></image>
+    <text class='nametext'>乐事美国黄瓜口味</text>
+  </view>
+
+  <!--微博昵称  -->
+  <view class='namebox'>
+    <text class='name'>配料</text>
+    <image class='nameicon' src='/images/righticon.png'></image>
+    <text class='nametext'>马铃薯粉，植物油，淀粉，调味剂，白砂糖，乳清粉，麦芽糊精，食用盐，谷氨酸钠</text>
+  </view>
+
+  <!--粉丝数  -->
+  <view class='namebox'>
+    <text class='name'>储藏方法</text>
+    <image class='nameicon' src='/images/righticon.png'></image>
+    <text class='nametext'>请置于干燥凉爽处.避免阳光直射</text>
+  </view>
+
+  <!--擅长领域  -->
+  <view class='namebox'>
+    <text class='name'>保质期</text>
+    <image class='nameicon' src='/images/righticon.png'></image>
+    <text class='nametext'>12个月</text>
+
+  </view>
+
+
+</view>
+
+<button class="back" bindtap="navigateBack">返回</button>
+<!--<navigator class='back' open-type="navigateBack">返回</navigator>-->

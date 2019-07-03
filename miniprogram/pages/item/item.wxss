@@ -1,0 +1,88 @@
+
+Page{
+  background-color:#b2dee9;
+}
+/*头部盒模型  */
+
+.head {
+  display: table;
+  position: relative;
+  padding-top: 150rpx;
+  margin: 0 auto;
+}
+
+/*头部照片  */
+
+.headphoto {
+  width: 300rpx;
+  height: 300rpx;
+  border-radius: 50%;
+  /* box-shadow: 0px 5px 2px #888888; */
+}
+
+.attrib {
+  font-size: 30rpx;
+  color: #1297dc;
+  display: block;
+  text-align: center;
+  line-height: 70rpx;
+  width: 250rpx;
+  height: 70rpx;
+  background-color: rgba(255, 255, 255, 0);
+  border: 3rpx solid #1297dc;
+  border-radius: 25rpx;
+  position: absolute;
+  left: 50%;
+  margin-left: -120rpx;
+  bottom: 500rpx;
+}
+.price {
+  font-size: 30rpx;
+  color: #1297dc;
+  display: block;
+  text-align: center;
+  line-height: 70rpx;
+  width: 250rpx;
+  height: 70rpx;
+  background-color: rgba(255, 255, 255, 0);
+  border: 3rpx solid #1297dc;
+  border-radius: 25rpx;
+  position: absolute;
+  left: 50%;
+  margin-left: -120rpx;
+  bottom: 700rpx;
+}
+
+.like {
+  font-size: 30rpx;
+  color: #1297dc;
+  display: block;
+  text-align: center;
+  line-height: 70rpx;
+  width: 250rpx;
+  height: 70rpx;
+  background-color: rgba(255, 255, 255, 0);
+  border: 3rpx solid #1297dc;
+  border-radius: 25rpx;
+  position: absolute;
+  left: 50%;
+  margin-left: -120rpx;
+  bottom: 100rpx;
+}
+
+.comment {
+  font-size: 30rpx;
+  color: #1297dc;
+  display: block;
+  text-align: center;
+  line-height: 70rpx;
+  width: 250rpx;
+  height: 70rpx;
+  background-color: rgba(255, 255, 255, 0);
+  border: 3rpx solid #1297dc;
+  border-radius: 25rpx;
+  position: absolute;
+  left: 50%;
+  margin-left: -120rpx;
+  bottom: 300rpx;
+}

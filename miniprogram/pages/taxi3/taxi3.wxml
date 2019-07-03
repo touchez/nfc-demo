@@ -1,0 +1,2 @@
+<!--pages/taxi3/taxi3.wxml-->
+  <image bindtap="toast" class="ecnu" src="../../images/taxi2.jpg"></image>

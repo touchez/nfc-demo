@@ -1,0 +1,42 @@
+<!--pages/smart_home/smart_home.wxml-->
+<view class='bgc'></view>
+
+  <image bindtap="goblance3" class="ecnu" src="../../images/1.jpg"></image>
+ <image bindtap="goblance4" class="ecnu" src="../../images/2.jpg"></image>
+  <image bindtap="goblance3" class="ecnu" src="../../images/3.jpg"></image>
+  <image bindtap="goblance5" class="ecnu" src="../../images/4.jpg"></image>
+ <image bindtap="goblance6" class="ecnu" src="../../images/5.jpg"></image>
+  <image bindtap="goblance7" class="ecnu" src="../../images/6.jpg"></image>
+  <image bindtap="goblance1" class="ecnu" src="../../images/7.jpg"></image>
+ <image bindtap="goblance2" class="ecnu" src="../../images/8.jpg"></image>
+  <image bindtap="goblance2" class="ecnu" src="../../images/9.jpg"></image>
+  <image class="ecnu2" src="../../images/smart_home.jpg"></image>
+
+
+<modal class="mb-balance" hidden="{{lighthidden}}" title="开灯成功" confirm-text="确定" bindconfirm="confirm" no-cancel="true">
+  您已成功开灯。
+</modal>
+<modal class="mb-balance" hidden="{{light_offhidden}}" title="关灯成功" confirm-text="确定" bindconfirm="confirm" no-cancel="true">
+  您已成功关灯。
+</modal>
+
+
+<modal class="mb-balance" hidden="{{airhidden}}" title="打开空调成功" confirm-text="确定" bindconfirm="confirm" no-cancel="true">
+  您已成功打开空调。
+</modal>
+<modal class="mb-balance" hidden="{{air_offhidden}}" title="关闭空调成功" confirm-text="确定" bindconfirm="confirm" no-cancel="true">
+  您已成功关闭空调。
+</modal>
+
+<modal class="mb-balance" hidden="{{wifihidden}}" title="WIFI" confirm-text="确定" bindconfirm="confirm" no-cancel="true">
+  房间 wifi 账号为 ecnu,
+  密码：12345678
+</modal>
+
+<modal class="mb-balance" hidden="{{phidden}}" title="投影仪" confirm-text="确定" bindconfirm="confirm" no-cancel="true">
+  正在打开投影仪~~·
+</modal>
+
+<modal class="mb-balance" hidden="{{comhidden}}" title="电脑" confirm-text="确定" bindconfirm="confirm" no-cancel="true">
+  正在进行电脑开机操作。
+</modal>

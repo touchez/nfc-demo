@@ -1,0 +1,13 @@
+/* pages/smart_home/smart_home.wxss */
+
+.ecnu{
+  margin: 0;
+  padding: 0;
+  width: 33.33%;
+  height: 120px;
+  
+}
+.ecnu2{
+  width: 100%;
+  height: 300px;
+}

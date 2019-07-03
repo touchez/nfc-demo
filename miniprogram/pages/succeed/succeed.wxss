@@ -1,0 +1,13 @@
+Page{
+  background-color:rgb(130, 194, 159);
+}
+.succeed{
+  color:black;
+}
+.btnr{
+  width: 50%；
+  margin-top 70%;
+  background-color:beige;
+  color:black;
+  border-radius: 98rpx;
+}

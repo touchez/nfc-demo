@@ -1,0 +1,65 @@
+<!--<view class='header'>
+   <text class='title'>隔壁有坑</text>
+  <image src="{{userInfo.avatarUrl}}"></image>
+</view>-->
+<!--特别推荐轮播图  -->
+<view class='body'>
+  <text class='title0'>金沙江路中山北路站</text>
+  <text class='title2'>上海市普陀区金沙江路</text>
+  <swiper class='imgsilder' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" indicator-active-color="#FFD92E" indicator-color="#E8F0F1" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}" wx:key="index">
+      <swiper-item>
+        <image mode='aspectFill' src="{{item}}" class="slide-image" width="355" height="200" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+
+<import src="/pages/template/indexPopup.wxml" />
+<template is="userPannel" data="{{isShowUserPannel}}" />
+<view class='add_symbol' bindtap='showUserPannel'></view>
+
+<view class='projectbox'>
+  <text class='headingtext'>Today</text>
+  <!--第一部分  -->
+  <view class='project'>
+      <image class='headimage' src="/images/bus67.jpg"></image>
+      <view class='projecttext'>
+        <text class='biaoti'>67路</text>
+        <text class='jianjie'>下一班到达时间: 14:21 </text>
+        <text class='field'>下一站: 金沙江路沪定路 </text>
+      </view>
+<navigator url='/pages/pageopen/pageopen'>
+      <view class='openpush'></view>
+    </navigator>
+  </view>
+
+  <!--第二部分  -->
+
+  <view class='project'>
+    
+    <image class='headimage' src="/images/bus136.jpg"></image>
+    <view class='projecttext'>
+      <text class='biaoti'>136路</text>
+      <text class='jianjie'>下一班到达时间: 14:18 </text>
+      <text class='field'>下一站: 杨柳青路枣阳路 </text>
+    </view>
+<navigator url='/pages/pageopen/pageopen'>
+    <view class='openpush'></view>
+     </navigator>
+  </view>
+
+  <!--第三部分  -->
+  <view class='project'>
+  
+    <image class='headimage' src="/images/bus216.jpg"></image>
+    <view class='projecttext'>
+      <text class='biaoti'>216路</text>
+      <text class='jianjie'>下一班到达时间: 14:23 </text>
+      <text class='field'>下一站: 长风公园 </text>
+    </view>
+<navigator url='/pages/pageopen/pageopen'>
+    <view class='openpush'></view>
+    </navigator>
+  </view>
+</view>

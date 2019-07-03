@@ -1,0 +1,5 @@
+/* pages/time/time.wxss */
+.ecnu{
+  width: 100%;
+  height:450px;
+}

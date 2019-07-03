@@ -1,0 +1,3 @@
+<!--pages/map/map.wxml-->
+
+  <image bindtap="toast" class="ecnu" src="/images/search.png"></image>

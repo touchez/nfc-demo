@@ -1,0 +1,2 @@
+<!--pages/distination/distination.wxml-->
+  <image bindtap="toast" class="ecnu" src="../../images/distination.jpg"></image>

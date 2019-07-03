@@ -1,0 +1,4 @@
+<view class="container">
+  <text class="succeed">您已成功开锁！</text>
+  <button class="btnr" type="default" size="default" bindtap="return">返回首页      </button>
+</view>

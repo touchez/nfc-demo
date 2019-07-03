@@ -1,0 +1,11 @@
+<view class='usercenter'>
+  <view class='head'>
+    <image class='headphoto' src="/images/leshi1.jpg"></image>
+  </view>
+</view>
+<view class="container">
+  <button class="attrib" bindtap="itemattrib">商品属性</button>
+  <button class="price" bindtap="goprice">价格比对</button>
+  <button class="comment" bindtap="gocomment">商品点评</button>
+  <button class="like" bindtap="likeit">收藏商品</button>
+</view>

@@ -1,0 +1,5 @@
+<!--pages/hospital/hospital.wxml-->
+
+  <image class="ecnu" src="/images/hospital.png"></image>
+
+  
