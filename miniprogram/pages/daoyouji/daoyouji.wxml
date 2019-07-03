@@ -1,0 +1,8 @@
+
+<audio poster="{{poster}}" name="{{name}}" 
+  author="{{author}}" src="{{src}}" id="daoyouji" 
+  controls="true" loop="true" autoplay="autoplay" >
+</audio>
+<view class="imgs">
+        <image class="img" src="../../image/mb.png" mode="scale"></image>
+</view>

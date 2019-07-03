@@ -1,0 +1,20 @@
+<!--list.wxml-->
+<view class="warp">
+<!-- 首页 -->
+  <view>就诊id：{{doctor.medicalRecordId}}</view>
+
+  <!-- 医生情况-->
+  <div>
+    <view class="imgs">
+          <image class="img" src="../../image/doctor.png" mode="scale"></image>
+    </view>
+    <view class="title">接诊医师：{{doctor.doctorName}}</view>
+    <view class="title">科室：{{doctor.departmentName}}</view>
+    <view class="title">医生id:45482648</view>
+  </div>
+  <view class="title">简介：华东师范大学，医学院博士，骨科专家</view>
+  <view class="title">正在就诊。。。</view>
+ 
+  
+  
+</view>

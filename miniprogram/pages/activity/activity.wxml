@@ -6,7 +6,7 @@
   <template name="listtem">
 
 <!-- 挂号事件 -->
-    <navigator url="../../pages/detail/detail?departmentid={{guahao.departmentId}}" hover-class="navigator-hover" class="haveb">
+    <navigator url="../../pages/guahaodetail/guahaodetail?departmentid={{guahao.departmentId}}" hover-class="navigator-hover" class="haveb">
 
       <view class="infos">
         <div class="titlev">
@@ -23,7 +23,7 @@
 
 <!-- 未支付事件列表 -->
   <template name="nopaylisttem">
-    <navigator url="../caseHistory/caseHistory?medicalRecordId={{medicalRecordId}}" hover-class="navigator-hover"  class="haveb">
+    <navigator url="../caseHistory/caseHistory?medicalRecordId={{medicalrecordId}}" hover-class="navigator-hover"  class="haveb">
 
       <view class="infos">
         <div class="titlev">
