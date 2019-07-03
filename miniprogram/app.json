@@ -19,12 +19,19 @@
     "pages/taxi3/taxi3",
     "pages/distination/distination",
     "pages/time/time",
-    "pages/order/order"
+    "pages/order/order",
+    "pages/historylist/historylist",
+    "pages/list/list",
+    "pages/hospitalIndex/index",
+    "pages/caseHistory/caseHistory",
+    "pages/hide/hide",
+    "pages/activity/activity"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#3ab971",
     "navigationBarTitleText": "NFC",
     "navigationBarTextStyle": "black"
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }
