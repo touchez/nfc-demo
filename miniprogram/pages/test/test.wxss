@@ -1,0 +1,33 @@
+/* miniprogram/pages/test/test.wxss */
+.Rose-music {
+  position: absolute;
+  right: 20rpx;
+  top: 0;
+  width: 40rpx;
+  height: 40rpx;
+  line-height: 1;
+}
+.Rose-play {
+  position: relative;
+  line-height: 1;
+}
+.rotate {
+  animation: rotate 1s linear infinite;
+}
+.icon-CD {
+  font-size: 20px;
+  margin-top: -10rpx;
+  color: #fefefe;
+}
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    transform-origin: 0, 0;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    transform-origin: 0, 0;
+  }
+}

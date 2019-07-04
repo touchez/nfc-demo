@@ -26,7 +26,8 @@
     "pages/caseHistory/caseHistory",
     "pages/hide/hide",
     "pages/activity/activity",
-    "pages/daoyouji/daoyouji"
+    "pages/daoyouji/daoyouji",
+    "pages/test/test"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -13,7 +13,7 @@
 <text space="ensp">    蒙娜丽莎,这是一个永远探讨不完的问题.自问世至今,将近五百年,后人不知做过多少品评和揣测,留下越来越多的迷局.当今,世上有研究《蒙娜丽莎》的专著数百部,而有近百名学者将此画作为终身课题.时间的推移不会使疑团得到解决,只会随着研究的深入,将更多的疑惑留给后人.</text>
  </view>
 
-<audio poster="{{poster}}" name="{{name}}" 
+<!-- <audio poster="{{poster}}" name="{{name}}" 
   author="{{author}}" src="{{src}}" id="daoyouji" 
   controls="true" loop="true" autoplay="autoplay" class='video'>
-</audio>
+</audio> -->

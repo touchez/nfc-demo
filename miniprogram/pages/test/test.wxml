@@ -1,0 +1,6 @@
+<!--miniprogram/pages/test/test.wxml-->
+<view class="Rose-music">
+    <view class="Rose-play {{isPlay? 'rotate': ''}}" ontap="controlMusic">
+        <icon class="iconfont icon-CD"></icon>
+    </view>
+</view>
