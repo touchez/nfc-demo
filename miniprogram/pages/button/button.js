@@ -1,6 +1,6 @@
 //index.js
 //获取应用实例
-var SERVER_PATH = 'wss://touchez.cn:8080';
+var SERVER_PATH = 'wss://touchez.cn:8081';
 const app = getApp()
 
 

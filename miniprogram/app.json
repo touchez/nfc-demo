@@ -27,7 +27,8 @@
     "pages/hide/hide",
     "pages/activity/activity",
     "pages/daoyouji/daoyouji",
-    "pages/test/test"
+    "pages/test/test",
+    "pages/guahaodetail/guahaodetail"
   ],
   "window": {
     "backgroundTextStyle": "light",
