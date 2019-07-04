@@ -6,7 +6,7 @@
   <!-- 医生情况-->
   <view>
     <view class='introduction'>医生简介</view>
-      <image class="img" src="../../image/doctor.png" mode="scale"></image>
+      <image class="img" src="https://i.loli.net/2019/07/04/5d1d741be247d74493.png" mode="scale"></image>
       <view class='text'>
         <view class="name">{{doctor.doctorName}}</view>
         <view class="title">科室：{{doctor.departmentName}}</view>

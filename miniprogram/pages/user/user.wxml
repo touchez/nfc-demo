@@ -1,7 +1,7 @@
 <!--pages/user/user.wxml-->
 
 <view class='usercenter'>
-  <image class='bg' src='/images/bg.png'></image>
+  <image class='bg' src='https://i.loli.net/2019/07/04/5d1d7416124e478147.png'></image>
 
   <view class='head'>
     <image class='headphoto' src="/images/leshi1.jpg"></image>
