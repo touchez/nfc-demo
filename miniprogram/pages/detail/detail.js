@@ -24,7 +24,7 @@ Page({
   onLoad: function(option) {
     var that = this
     wx.request({
-      url: 'http://47.100.35.6:8080/guahao', // 仅为示例，并非真实的接口地址
+      url: 'https://touchez.cn:8090/guahao', // 仅为示例，并非真实的接口地址
       data: {
         "userId": app.globalData.userId,
         "departmentId": option.departmentid * 1
@@ -41,10 +41,10 @@ Page({
             keshi: res.data.data.departmentName
           })
           that.setData({
-            pnum: res.data.data.guahaoId
+            pnum: res.data.data.order
           })
           that.setData({
-            time: 5 * res.data.order
+            time: 5 * res.data.data.order
           })
         } else if (res.data.code == 500500) {
           that.setData({

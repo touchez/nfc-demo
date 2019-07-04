@@ -26,10 +26,10 @@ Page({
       url: '../logs/logs'
     })
   },
-  onLoad: function() {
+  onShow: function() {
     var that = this
     wx.request({
-      url: 'http://47.100.35.6:8080/guahao/active', // 仅为示例，并非真实的接口地址
+      url: 'https://touchez.cn:8090/guahao/active', // 仅为示例，并非真实的接口地址
       data: {
         userId: app.globalData.userId
       },
@@ -44,7 +44,7 @@ Page({
       }
     })
     wx.request({
-      url: 'http://47.100.35.6:8080/examination/' + app.globalData.userId, // 仅为示例，并非真实的接口地址
+      url: 'https://touchez.cn:8090/examination/' + app.globalData.userId, // 仅为示例，并非真实的接口地址
       data: {
         payState: 0
       },
@@ -60,7 +60,7 @@ Page({
       }
     })
     wx.request({
-      url: 'http://47.100.35.6:8080/examination/' + app.globalData.userId, // 仅为示例，并非真实的接口地址
+      url: 'https://touchez.cn:8090/examination/' + app.globalData.userId, // 仅为示例，并非真实的接口地址
       data: {
         payState: 1
       },

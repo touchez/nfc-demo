@@ -25,7 +25,8 @@
     "pages/hospitalIndex/index",
     "pages/caseHistory/caseHistory",
     "pages/hide/hide",
-    "pages/activity/activity"
+    "pages/activity/activity",
+    "pages/daoyouji/daoyouji"
   ],
   "window": {
     "backgroundTextStyle": "light",

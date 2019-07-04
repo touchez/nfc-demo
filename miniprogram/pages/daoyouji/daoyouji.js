@@ -5,7 +5,7 @@ const app = getApp()
 Page({
   data: {
     createDate: "2019-06-03 10:40:27",
-    poster:"../../image/ms.png",//图片地址
+    poster:"https://i.loli.net/2019/07/04/5d1d741a63cd573725.png",//图片地址
     name:"蒙娜丽莎的微笑简介",
     author:"云游中心",
     src:"../../audio/ma.mp3"//音频地址，
