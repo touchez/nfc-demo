@@ -22,7 +22,7 @@ Page({
     var that = this 
     setTimeout(function () {
       wx.reLaunch({
-        url: '../index/index',
+        url: '../activity/activity',
       })
     }, 20000),
     wx.request({

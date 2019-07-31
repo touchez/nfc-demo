@@ -1,3 +1,8 @@
+// 导入socket.io小程序版包
+import io from 'utils/socket.io.xcx'
+
+// 使用IO创建socket实例，本实例使用本地socket.io服务器， 请根据根据实际情况修改IP，记得设置userId的值
+let socket = io('http://127.0.0.1:9090?userId=1')
 //app.js
 var SERVER_PATH = 'wss://47.100.35.6:8080';
 App({
@@ -55,6 +60,18 @@ App({
       console.log('WebSocket连接已关闭!')
     })
     */
+    socket.on('connect', function () {
+      console.log('连上了');
+    });
+
+    socket.on('jump', function (data) {
+      //可以在此处进行相应的跳转操作
+      console.log('进行跳转');
+    });
+
+    socket.on('disconnect', function () {
+      console.log('与socketIO服务器断开连接');
+    });
   },
   globalData: {
     userInfo: null,
