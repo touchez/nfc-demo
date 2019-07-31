@@ -1,0 +1,5 @@
+<!--miniprogram/pages/checkReport/checkReport.wxml-->
+<text>miniprogram/pages/checkReport/checkReport.wxml</text>
+<view>
+  {{examinationResult}}
+</view>

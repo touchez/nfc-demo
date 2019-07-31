@@ -1,0 +1,12 @@
+<!--miniprogram/pages/activeCheck/activeCheck.wxml-->
+<text>miniprogram/pages/activeCheck/activeCheck.wxml</text>
+
+<view>
+  <block wx:if="{{valid}}">
+		<view>正在检查{{type}}</view>
+	</block>
+
+  <block wx:else>
+		<view>无活跃检查</view>
+	</block>
+</view>

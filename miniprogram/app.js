@@ -66,6 +66,15 @@ App({
 
     socket.on('jump', function (data) {
       //可以在此处进行相应的跳转操作
+      wx.navigateTo({
+        url:'/pages/jiuzheng/jiuzheng',
+        success() {
+          console.log('跳转成功');
+        },
+        fail() {
+          console.log('跳转失败');
+        },
+      });
       console.log('进行跳转');
     });
 

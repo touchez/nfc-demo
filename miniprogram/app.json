@@ -28,7 +28,10 @@
     "pages/activity/activity",
     "pages/daoyouji/daoyouji",
     "pages/test/test",
-    "pages/guahaodetail/guahaodetail"
+    "pages/guahaodetail/guahaodetail",
+    "pages/jiuzheng/jiuzheng",
+    "pages/checkReport/checkReport",
+    "pages/activeCheck/activeCheck"
   ],
   "window": {
     "backgroundTextStyle": "light",
