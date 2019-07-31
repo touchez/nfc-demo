@@ -119,10 +119,10 @@
 					"scene": null
 				},
 				{
-					"id": -1,
+					"id": 11,
 					"name": "index",
 					"pathName": "pages/activeCheck/activeCheck",
-					"query": "",
+					"query": "type=haha",
 					"scene": null
 				}
 			]
