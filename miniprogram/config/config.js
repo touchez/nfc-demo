@@ -1,6 +1,6 @@
 // 服务器域名
-// const baseUrl = 'https://touchez.cn:8090/';
-const baseUrl = 'https://localhost:8091/';
+const baseUrl = 'https://touchez.cn:8090/';
+// const baseUrl = 'https://localhost:8091/';
 // 获取用户病历接口
 const getMedicalHistoryByUserUrl = baseUrl + 'medicalRecord/';
 // 获取用户检查记录接口
