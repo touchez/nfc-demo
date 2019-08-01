@@ -17,5 +17,13 @@
    <view class="detail">
    <text space="ensp">   长期从事骨外科的临床诊疗和研究，擅长骨与软组织肿瘤、复杂的关节周围骨折韧带损伤、老年人骨折、肢体畸形矫正等各类困难的骨与关节疾患。
    </text></view>
-   <view class="aString">正在就诊。。。</view>
+   <view class="aString">
+     <block wx:if="{{!isTwiceExam}}">
+     正在就诊。。。
+     </block>
+
+     <block wx:else>
+     正在复诊。。。
+     </block>
+   </view>
 </view>

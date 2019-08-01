@@ -13,7 +13,7 @@ Page({
     medicalrecordContentFirst: '应该没什么病',
     medicalrecordId:1,
     symptom: "日常摸鱼",
-    treatment: "没病 治啥",
+    treatment: [],
     userId:1,
     jianchalist: [{
       examinationOrderId
@@ -59,7 +59,27 @@ examinationType
         
       }
     })
+    that.getTreatmentDrug(option.medicalRecordId);
   },
+
+  getTreatmentDrug:function (medicalRecordId) {
+    var that = this
+    wx.request({
+      url: 'https://touchez.cn:8090/treatment/get', 
+      data: {
+        medicalRecordId: medicalRecordId
+
+      },
+      success(res) {
+        console.log(res.data)
+
+        that.setData({ treatment: res.data.data})
+
+        console.log(that.data.treatment);
+      }
+    })
+  },
+
   getUserInfo: function (e) {
     console.log(e)
     app.globalData.userInfo = e.detail.userInfo

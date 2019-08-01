@@ -1,0 +1,8 @@
+<!--miniprogram/pages/showMedicines/showMedicines.wxml-->
+
+<view class="medicines" wx:for="{{medicines}}">
+  <view class="medicine_name">药品名称：{{item.medicineName}}</view>
+  <view class="medicine_quality">药品规格：{{item.medicineQuality}}</view>
+  <view class="medicine_usage">用法：{{item.medicineUsage}}</view>
+  <view class="valid_time">有效期：{{item.validTime}}</view>
+</view>

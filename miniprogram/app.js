@@ -2,7 +2,9 @@
 import io from 'utils/socket.io.xcx'
 
 // 使用IO创建socket实例，本实例使用本地socket.io服务器， 请根据根据实际情况修改IP，记得设置userId的值
-let socket = io('http://127.0.0.1:9090?userId=1')
+// let socket = io('http://127.0.0.1:9090?userId=1')
+// let socket = io('https://touchez.cn:9090?userId=1')
+let socket = io('http://touchez.cn:9090?userId=1')
 //app.js
 var SERVER_PATH = 'wss://47.100.35.6:8080';
 App({
@@ -66,15 +68,37 @@ App({
 
     socket.on('jump', function (data) {
       //可以在此处进行相应的跳转操作
+      console.log(data);
+
+      var medicalRecordId = wx.getStorageSync('medicalRecordId');
+
+      if (medicalRecordId == null) {
+        //之前没有就说明是第一次
+        console.log(data);
+        wx.setStorageSync('medicalRecordId', data);
+        wx.setStorageSync('curMedicalRecordId', data);
+      }else {
+        //之前有就说明是复诊，记得删掉mediacalRecordId
+        console.log('delete ' + medicalRecordId);
+        wx.setStorageSync('medicalRecordId', null);
+
+      }
+
       wx.navigateTo({
-        url:'/pages/jiuzheng/jiuzheng',
+        url:'/pages/historylist/historylist',
         success() {
           console.log('跳转成功');
         },
-        fail() {
+        fail(err) {
+          console.log(err);
           console.log('跳转失败');
+          //navigateTo不能跳转tab
+          wx.switchTab({
+            url: '/pages/historylist/historylist'
+          });
         },
       });
+      
       console.log('进行跳转');
     });
 
@@ -82,8 +106,14 @@ App({
       console.log('与socketIO服务器断开连接');
     });
   },
+
+  getMedicalRecordId: function() {
+    return wx.getStorageSync('medicalRecordId');
+  },
+
   globalData: {
     userInfo: null,
-    userId: 1
+    userId: 1,
+    medicalRecordId: null,
   }
 })

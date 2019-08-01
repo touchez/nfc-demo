@@ -1,5 +1,5 @@
 <!--detail.wxml-->
-<view class="guahao">
+<view class="guahao" wx:if="{{!isNull}}">
   <view  class="guhao-tishi" >
   <view class="guahao-pnum">检查项目：血常规</view>
       <view class="guahao-pnum">检查地点：{{exsanguinateAddr}}</view>
@@ -19,4 +19,7 @@
       <view class="guahao-pnum">{{msg}}</view>
       
   </view>
+</view>
+<view class="check-not-complete" wx:else>
+  检查尚未完成
 </view>

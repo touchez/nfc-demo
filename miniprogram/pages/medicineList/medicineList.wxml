@@ -1,0 +1,6 @@
+<!--miniprogram/pages/medicineList/medicineList.wxml-->
+
+<view wx:for="{{treatment}}">
+  <view class='medicine_name'>{{item.drugName}}</view>
+  <view class='medicine_time'>{{item.drugCount}}盒  {{item.totalPrice}}元</view>
+</view>

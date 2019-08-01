@@ -13,7 +13,8 @@ Page({
     exsanguinateReport:"没有大问题",
     exsanguinateTime:"2019-06-02",
     reportTime:"2019-06-02",
-    userId:1
+    userId:1,
+    isNull: true,
   },
   //事件处理函数
   bindViewTap: function () {
@@ -33,6 +34,14 @@ Page({
       },
       success(res) {
         console.log(res.data)
+
+        //判断是否检查完毕
+        if (res.data.data.exsanguinateReport != null) {
+          that.setData({
+            isNull: false
+          });
+        };
+
         that.setData({ exsanguinateAddr: res.data.data.exsanguinateAddr})
         that.setData({ exsanguinateAttr1: res.data.data.exsanguinateAttr1 }) 
         that.setData({ exsanguinateAttr2: res.data.data.exsanguinateAttr2 }) 

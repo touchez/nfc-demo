@@ -1,10 +1,10 @@
 <!--detail.wxml-->
-<view class="guahao">
+<view class="guahao" wx:if="{{!isNull}}">
   <view  class="guhao-tishi" >
       <view class="guahao-pnum">检查项目：X光</view>
       <view class="guahao-pnum">检查地点：{{xrayAddr}}</view>
       <view class="guahao-pnum">检查部位：{{xrayPart}}</view>
-      <view class="guahao-time">样片：{{xrayImg}}</view>
+      <view class="guahao-time">样片：<image class="image_frame" src="{{xrayImg}}" mode="aspectFill"></image></view>
       <view class="guahao-time">检查费用：{{xrayCost}}</view>
       <view class="guahao-time">xray流水号：{{xrayId}}</view>
       <view class="guahao-time">结论：{{xrayReport}}</view>
@@ -19,4 +19,7 @@
       <view class="guahao-pnum">{{msg}}</view>
       
   </view>
+</view>
+<view class="check-not-complete" wx:else>
+  检查尚未完成
 </view>

@@ -40,7 +40,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 11,
+			"current": 14,
 			"list": [
 				{
 					"id": -1,
@@ -120,9 +120,30 @@
 				},
 				{
 					"id": 11,
-					"name": "index",
+					"name": "activeCheck",
 					"pathName": "pages/activeCheck/activeCheck",
-					"query": "type=haha",
+					"query": "type=exsanguinate",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "historylist",
+					"pathName": "pages/historylist/historylist",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "showMedicines",
+					"pathName": "pages/showMedicines/showMedicines",
+					"query": "medicineName=阿莫西林片",
+					"scene": null
+				},
+				{
+					"id": 14,
+					"name": "medicineList",
+					"pathName": "pages/medicineList/medicineList",
+					"query": "",
 					"scene": null
 				}
 			]

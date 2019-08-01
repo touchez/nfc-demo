@@ -31,7 +31,9 @@
     "pages/guahaodetail/guahaodetail",
     "pages/jiuzheng/jiuzheng",
     "pages/checkReport/checkReport",
-    "pages/activeCheck/activeCheck"
+    "pages/activeCheck/activeCheck",
+    "pages/showMedicines/showMedicines",
+    "pages/medicineList/medicineList"
   ],
   "window": {
     "backgroundTextStyle": "light",

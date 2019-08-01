@@ -7,12 +7,13 @@ Page({
     xrayAddr:" ",
     xrayCost: 100,
     xrayId: 1,
-    xrayImg: 1,
+    xrayImg: 'https://nfcvideo.oss-cn-shanghai.aliyuncs.com/computers-read-chest-xrays-front-view-621x500.jpg',
     xrayPart:"腹部",
     xrayReport:"没有大问题",
     xrayTime:"2019-06-02",
     reportTime:"2019-06-02",
-    userId:1
+    userId:1,
+    isNull: true,
   },
   //事件处理函数
   bindViewTap: function () {
@@ -32,6 +33,14 @@ Page({
       },
       success(res) {
         console.log(res.data)
+
+        //判断是否检查完毕
+        if (res.data.data.xrayReport != null) {
+          that.setData({
+            isNull: false
+          });
+        };
+
         if(res.data.code==0){
           that.setData({ xrayAddr: res.data.data.xrayAddr})
           that.setData({ xrayCost: res.data.data.xrayCost }) 

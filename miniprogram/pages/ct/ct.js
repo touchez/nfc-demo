@@ -7,12 +7,13 @@ Page({
     ctAddr:" ",
     ctCost: 100,
     ctId: 1,
-    ctImg: 1,
+    ctImg: 'https://nfcvideo.oss-cn-shanghai.aliyuncs.com/%E4%B8%8B%E8%BD%BD.jpg',
     ctPart:"腹部",
     ctReport:"没有大问题",
     ctTime:"2019-06-02",
     reportTime:"2019-06-02",
-    userId:1
+    userId:1,
+    isNull: true,
   },
   //事件处理函数
   bindViewTap: function () {
@@ -32,6 +33,14 @@ Page({
       },
       success(res) {
         console.log(res.data)
+
+        //判断是否检查完毕
+        if (res.data.data.ctReport != null) {
+          that.setData({
+            isNull: false
+          });
+        };
+
         if(res.data.code==0){
           that.setData({ ctAddr: res.data.data.ctAddr})
           that.setData({ ctCost: res.data.data.ctCost }) 
