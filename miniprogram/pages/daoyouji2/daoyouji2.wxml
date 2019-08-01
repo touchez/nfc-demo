@@ -1,0 +1,16 @@
+<!--miniprogram/pages/daoyouji2/daoyouji2.wxml-->
+<view wx:for="{{guideMachines}}">
+
+  <view class='title'>
+  {{item.title}}
+  </view>
+
+  <view class="imgs">
+    <image class="img" src="{{item.poster}}" mode="scale"></image>
+  </view>
+
+  <text>
+  {{item.content}}
+  </text>
+
+</view>

@@ -1,6 +1,6 @@
 // 服务器域名
-const baseUrl = 'https://touchez.cn:8090/';
-// const baseUrl = 'https://localhost:8091/';
+// const baseUrl = 'https://touchez.cn:8090/';
+const baseUrl = 'https://localhost:8091/';
 // 获取用户病历接口
 const getMedicalHistoryByUserUrl = baseUrl + 'medicalRecord/';
 // 获取用户检查记录接口
@@ -9,10 +9,13 @@ const getCheckReportUrl = baseUrl + 'examination_report/get';
 const checkActiveUrl = baseUrl + 'examination/check_active';
 // 获取药品信息
 const getMedicineData = baseUrl + 'api/v1/medicine';
+// 获取导游机信息
+const getGuideMedicineData = baseUrl + 'api/v1/guideMachine';
 
 module.exports = {
   getMedicalHistoryByUserUrl: getMedicalHistoryByUserUrl,
   getCheckReportUrl: getCheckReportUrl,
   checkActiveUrl: checkActiveUrl,
   getMedicineData: getMedicineData,
+  getGuideMedicineData: getGuideMedicineData
 };

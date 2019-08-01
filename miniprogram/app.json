@@ -33,7 +33,8 @@
     "pages/checkReport/checkReport",
     "pages/activeCheck/activeCheck",
     "pages/showMedicines/showMedicines",
-    "pages/medicineList/medicineList"
+    "pages/medicineList/medicineList",
+    "pages/daoyouji2/daoyouji2"
   ],
   "window": {
     "backgroundTextStyle": "light",

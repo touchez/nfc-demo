@@ -1,0 +1,22 @@
+/* miniprogram/pages/daoyouji2/daoyouji2.wxss */
+
+.title{
+  position: relative;
+  top: 10px;
+  left: 5%;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 14px;
+  font-weight: bold;
+}
+.img{
+  position: relative;
+}
+.text{
+  position: relative;
+  top: 10px;
+  left: 8%;
+  width: 84%;
+  font-size: 16px;
+  line-height: 30px;
+}
