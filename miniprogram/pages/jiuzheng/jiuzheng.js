@@ -64,7 +64,7 @@ Page({
         if (res.confirm) {
           console.log('用户点击我知道了');
           wx.switchTab({
-            url: '/pages/historylist/historylist'
+            url: '/pages/list/list'
           });
         } else {
           console.log('用户点击辅助操作')
@@ -92,6 +92,8 @@ Page({
       that.setData({
         doctor: wx.getStorageSync('doctor')
       });
+      //web页面跳出
+      that.openWeb();
     }
 
     that.setData({

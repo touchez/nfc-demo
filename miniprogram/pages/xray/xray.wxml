@@ -25,6 +25,12 @@
       
   </view>
 </view>
-<view class="check-not-complete" wx:else>
+<!-- <view class="check-not-complete" wx:else>
   检查尚未完成
+</view> -->
+<view  style="color:dimgray;" wx:else>
+  <view class='background_div'>
+    <view class="guahao-fail guahao-fail_1" >检查尚未完成</view>
+    <div class="back" bindtap='backtohome'> 返回 </div>
+  </view>
 </view>

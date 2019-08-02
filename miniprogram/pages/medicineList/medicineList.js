@@ -36,7 +36,7 @@ Page({
         that.setData({ treatment: res.data.data })
         var num=0
         var i=0
-        console.log(res.data.data[1].totalPrice)
+        console.log(res.data.data[0].totalPrice)
         while (res.data.data[i]){
           num += res.data.data[i].totalPrice
           i++
