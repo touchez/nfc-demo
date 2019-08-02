@@ -6,6 +6,7 @@ Page({
    */
   data: {
     treatment: [],
+    total:0 ,
   },
 
   /**
@@ -33,8 +34,16 @@ Page({
         console.log(res.data)
 
         that.setData({ treatment: res.data.data })
-
-        console.log(that.data.treatment);
+        var num=0
+        var i=0
+        console.log(res.data.data[1].totalPrice)
+        while (res.data.data[i]){
+          num += res.data.data[i].totalPrice
+          i++
+        }
+        console.log(num)
+        that.setData({ total: num })
+        
       }
     })
   },

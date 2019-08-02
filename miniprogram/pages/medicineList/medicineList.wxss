@@ -1,1 +1,53 @@
 /* miniprogram/pages/medicineList/medicineList.wxss */
+.background_div {
+  position: fixed;
+  top: 80px;
+  left: 5%;
+  width: 90%;
+  height: 80px;
+  background-color: #f6f6f6;
+  box-shadow: 6px 6px 5px #2222;
+  z-index:-1;
+}
+
+.list {
+  float: left;
+  height: 100rpx;
+  width: 100%;
+  
+  box-shadow: 6px 6px 10px #2222;
+  background-color: #f6f6f6;
+  padding: 20rpx 0 0 20 rpx;
+  margin-top: 20rpx;
+}
+
+.medicine_name {
+  float: left;
+  font-size: 25px;
+  
+  color: cornflowerblue;
+}
+
+.medicine_time {
+  float: right;
+  margin-right: 20rpx;
+  color: #aaa;
+  
+}
+
+.total{
+  font-size:25px;
+  float:right;
+}
+.title {
+  float: left;
+  height: 150rpx;
+  width: 100%;
+  text-align: center;
+  font-size:45px;
+  color:white;
+  box-shadow: 6px 6px 10px #2222;
+  background-color: cornflowerblue;
+  padding: 20rpx 0 0 20 rpx;
+  margin-top: 20rpx;
+}

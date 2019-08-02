@@ -1,1 +1,66 @@
 /* miniprogram/pages/activeCheck/activeCheck.wxss */
+.guahao-keshi {
+  position: relative;
+  left: 50%;
+  margin-left: -120px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 50px;
+  background-color: #6495ED;
+  box-shadow: 6px 6px 5px #2222;
+  height: 80px;
+  width: 240px;
+  color:white;
+  border-radius: 20px;
+}
+
+.guahao-img {
+  display: block;
+  width: 124px;
+  height: 80px;
+  margin: 20px auto;
+}
+
+.guahao-pnum{
+  margin-top: 20px;
+}
+
+.guahao-pnum, .guahao-time {
+  text-align: center;
+  font-size: 24px;
+  line-height: 50px;
+}
+
+.back {
+  color: white;
+  border-radius: 20rpx;
+  height: 20rpx;
+  padding: 45rpx 70rpx;
+  width: 40%;
+  margin-left: 20%;
+  margin-top: 10%;
+  line-height: 20rpx;
+  background-color: #6495ED;
+  box-shadow: 6px 6px 5px #2222;
+}
+
+
+.background_div {
+  position: fixed;
+  top: 80px;
+  left: 5%;
+  width: 90%;
+  height: 340px;
+  background-color: #f6f6f6;
+  box-shadow: 6px 6px 5px #2222;
+  z-index:-1;
+}
+
+.guahao-fail{
+  text-align: center;
+  font-size: 24px;
+  line-height: 50px;
+}
+.guahao-fail_1{
+  margin-top: 40px;
+}

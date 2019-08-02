@@ -1,6 +1,28 @@
 <!--miniprogram/pages/medicineList/medicineList.wxml-->
 
+<template name="listtem" >
+  <div class='list'>
+    <view class='medicine_name'>{{drugName}}</view>
+    <view class='medicine_time'>{{drugCount}}盒  {{totalPrice}}元</view> 
+  </div>
+  <!-- <view class="infos">
+      <view class="titleid"> 序号 : {{medicalRecordId}}</view>
+      <view class="title">{{generalName}}</view>
+      <view class="date">{{date}}</view>
+      <view class="addr">{{addr}}</view>
+  </view> -->
+</template>
+<view class="title">        应取药品</view>
+<!-- 循环输出列表-->
 <view wx:for="{{treatment}}">
-  <view class='medicine_name'>{{item.drugName}}</view>
-  <view class='medicine_time'>{{item.drugCount}}盒  {{item.totalPrice}}元</view>
+  <template is="listtem" data="{{...item}}" />
 </view>
+<view class="total">总价:  {{total}}元</view>
+<!-- 
+<view wx:for="{{treatment}}"  >
+  
+  <div >
+    <view class='medicine_name'>{{item.drugName}}</view>
+    <view class='medicine_time'>{{item.drugCount}}盒  {{item.totalPrice}}元</view>
+  </div>
+</view> -->
