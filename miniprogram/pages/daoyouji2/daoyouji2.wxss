@@ -9,8 +9,9 @@
   margin-bottom: 14px;
   font-weight: bold;
 }
-.img{
+.imgs{
   position: relative;
+  text-align:center;
 }
 .text{
   position: relative;
