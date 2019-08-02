@@ -15,6 +15,11 @@ Page({
     userId:1,
     isNull: true,
   },
+  backtohome: function () {
+    wx.switchTab({
+      url: "../historylist/historylist"
+    })
+  },
   //事件处理函数
   bindViewTap: function () {
     wx.navigateTo({

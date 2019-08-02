@@ -40,13 +40,14 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 15,
+			"current": 7,
 			"list": [
 				{
-					"id": -1,
-					"name": "db guide",
-					"pathName": "pages/databaseGuide/databaseGuide",
-					"query": ""
+					"id": 0,
+					"name": "activeCheck",
+					"pathName": "pages/activeCheck/activeCheck",
+					"query": "type=xray",
+					"scene": null
 				},
 				{
 					"id": 1,
@@ -92,8 +93,8 @@
 				},
 				{
 					"id": 7,
-					"name": "map",
-					"pathName": "pages/map2/map2",
+					"name": "exsanguinate",
+					"pathName": "pages/exsanguinate/exsanguinate",
 					"query": "",
 					"scene": null
 				},

@@ -16,7 +16,7 @@
       </view>
       <view class="warp">
         <!-- 时间线模板-->
-        <template name="listtem">
+        <template  name="listtem">
           <view wx:if="{{examinationType=='exsanguinate'}}">
             <navigator url="../exsanguinate/exsanguinate?examinationOrderId={{examinationOrderId}}" hover-class="navigator-hover">
               <view class="examine_item">exsanguinate：{{examinationType}}</view>

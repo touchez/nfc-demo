@@ -14,7 +14,11 @@ Page({
     type: 'exsanguinate',
     result: '正常'
   },
-
+  backtohome: function () {
+    wx.switchTab({
+      url: "../activity/activity"
+    })
+  },
   checkActive: function() {
     let that = this;
 
