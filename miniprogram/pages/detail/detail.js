@@ -46,6 +46,10 @@ Page({
           that.setData({
             time: 5 * res.data.data.order
           })
+
+          //把挂号id存在缓存中
+          wx.setStorageSync('guahaoId', res.data.data.guahaoId);
+          
         } else if (res.data.code == 500500) {
           that.setData({
             msg: res.data.msg

@@ -11,11 +11,14 @@ const checkActiveUrl = baseUrl + 'examination/check_active';
 const getMedicineData = baseUrl + 'api/v1/medicine';
 // 获取导游机信息
 const getGuideMedicineData = baseUrl + 'api/v1/guideMachine';
+// 设置挂号状态
+const setGuahaoStateApi = baseUrl + 'guahao';
 
 module.exports = {
   getMedicalHistoryByUserUrl: getMedicalHistoryByUserUrl,
   getCheckReportUrl: getCheckReportUrl,
   checkActiveUrl: checkActiveUrl,
   getMedicineData: getMedicineData,
-  getGuideMedicineData: getGuideMedicineData
+  getGuideMedicineData: getGuideMedicineData,
+  setGuahaoStateApi: setGuahaoStateApi
 };
