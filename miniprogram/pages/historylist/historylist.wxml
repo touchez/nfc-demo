@@ -18,9 +18,9 @@
   </template>
 
   <!-- 循环输出列表-->
-  <navigator url="../jiuzheng/jiuzheng?medicalRecordId={{medicalRecordId}}" hover-class="navigator-hover"> 就诊</navigator>
+  <!-- <navigator url="../jiuzheng/jiuzheng?medicalRecordId={{medicalRecordId}}" hover-class="navigator-hover"> 就诊</navigator>
 
-  <navigator url="../daoyouji/daoyouji?medicalRecordId={{medicalRecordId}}" hover-class="navigator-hover"> daoyouji</navigator>
+  <navigator url="../daoyouji/daoyouji?medicalRecordId={{medicalRecordId}}" hover-class="navigator-hover"> daoyouji</navigator> -->
   <view wx:for="{{historylist}}" class="list">
     <template is="listtem" data="{{...item}}" />
   </view>

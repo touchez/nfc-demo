@@ -13,6 +13,8 @@ const getMedicineData = baseUrl + 'api/v1/medicine';
 const getGuideMedicineData = baseUrl + 'api/v1/guideMachine';
 // 设置挂号状态
 const setGuahaoStateApi = baseUrl + 'guahao';
+// 开锁的api
+const openLock = baseUrl + 'pyapi/openlock';
 
 module.exports = {
   getMedicalHistoryByUserUrl: getMedicalHistoryByUserUrl,
@@ -20,5 +22,6 @@ module.exports = {
   checkActiveUrl: checkActiveUrl,
   getMedicineData: getMedicineData,
   getGuideMedicineData: getGuideMedicineData,
-  setGuahaoStateApi: setGuahaoStateApi
+  setGuahaoStateApi: setGuahaoStateApi,
+  openLock: openLock
 };

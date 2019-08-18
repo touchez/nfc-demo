@@ -40,7 +40,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 11,
+			"current": 18,
 			"list": [
 				{
 					"id": 0,
@@ -159,6 +159,19 @@
 					"name": "guahao",
 					"pathName": "pages/guahaodetail/guahaodetail",
 					"query": "departmentid=2",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "button",
+					"pathName": "pages/button/button",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/index/index",
+					"pathName": "pages/index/index",
 					"scene": null
 				}
 			]
